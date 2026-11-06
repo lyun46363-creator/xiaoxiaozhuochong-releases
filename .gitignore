@@ -1,0 +1,10 @@
+# Version control stores only public release metadata and the merge utility.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/CHANGELOG.md
+!/merge-installer.ps1
+!/versions/
+/versions/*
+!/versions/*.json
