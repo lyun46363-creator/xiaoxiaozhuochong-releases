@@ -2,28 +2,28 @@
   "version": "1.4.4",
   "release_url": "https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/tag/v1.4.4",
   "full": {
-    "name": "xiaoxiaozhuochong-安装程序-1.4.4.exe",
+    "name": "xiaoxiaozhuochong-setup-1.4.4.exe",
     "bytes": 2412846606,
     "sha256": "eed905a9033a62b200519d8792513c7d5258fa13a7c485bff37a21312a074271",
     "parts": [
       {
-        "name": "xiaoxiaozhuochong-安装程序-1.4.4.exe.part1",
+        "name": "xiaoxiaozhuochong-setup-1.4.4.exe.part1",
         "bytes": 1610612736,
         "sha256": "c82d020d47f56d67e4cf456fa193cfa64d44b11b52584d2738928c388c8046e9",
-        "download_url": "https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.4.4/xiaoxiaozhuochong-%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F-1.4.4.exe.part1"
+        "download_url": "https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.4.4/xiaoxiaozhuochong-setup-1.4.4.exe.part1"
       },
       {
-        "name": "xiaoxiaozhuochong-安装程序-1.4.4.exe.part2",
+        "name": "xiaoxiaozhuochong-setup-1.4.4.exe.part2",
         "bytes": 802233870,
         "sha256": "5573ac532ea25a1cb9e8f692d1005a856ff38a466467c8da9dde43063c650690",
-        "download_url": "https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.4.4/xiaoxiaozhuochong-%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F-1.4.4.exe.part2"
+        "download_url": "https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.4.4/xiaoxiaozhuochong-setup-1.4.4.exe.part2"
       }
     ]
   },
   "upgrade": {
-    "name": "xiaoxiaozhuochong-升级包-1.4.4.exe",
+    "name": "xiaoxiaozhuochong-upgrade-1.4.4.exe",
     "bytes": 483850438,
     "sha256": "787609d9858a0b9354c7350005384e1aa50eb6361855618697707a47a4a6c31c",
-    "download_url": "https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.4.4/xiaoxiaozhuochong-%E5%8D%87%E7%BA%A7%E5%8C%85-1.4.4.exe"
+    "download_url": "https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.4.4/xiaoxiaozhuochong-upgrade-1.4.4.exe"
   }
 }
