@@ -1,13 +1,25 @@
 # 小小桌宠 Windows 安装包
 
-本仓库存放公开版本清单和说明，安装文件通过 [Releases](https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases) 提供。说明对应版本 **1.5.0**，实际可下载版本以已发布附件为准。
+版本 **1.5.0**。首次使用先下载并安装桌宠主体；语音生成包按需选装。
 
-## 下载和安装
+## 点击下载
 
-- 先安装 **小小桌宠软件安装包**：`xiaoxiaozhuochong-software-1.5.0.exe`。包含桌宠、离线聊天模型、系统语音和语音识别。
-- 想体验生成新的专属音色对话，再安装可选 **小小桌宠语音安装包**：`xiaoxiaozhuochong-voice-1.5.0.exe`。安装器自动查找主体目录；两个包单独下载，不必压缩或合并。
-- 已有用户将软件安装包覆盖安装到原目录，保留个人数据。1.4.5 用户需手动安装一次 1.5.0，之后可在小屋检查和操作更新。
-- 联网检测到更新会先询问立刻／稍后下载，校验后点击一键安装。主体与语音组件独立更新，未装语音包的用户仅收到主体更新询问。
+### [⬇ 下载桌宠主体（必装，约 866 MiB）](https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.5.0/xiaoxiaozhuochong-software-1.5.0.exe)
+
+包含桌宠、离线聊天模型、提醒、系统语音和中文语音识别。下载后双击安装。
+
+### [⬇ 下载语音生成包（可选，约 1.37 GiB）](https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.5.0/xiaoxiaozhuochong-voice-1.5.0.exe)
+
+想体验桌宠生成新的专属音色对话，再安装这个包。不安装也能使用离线聊天和系统语音。
+
+这两个入口直接指向安装文件，无需再进入发布页面查找。下载入口在对应版本安装包上传完成后生效。[查看所有发布版本](https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases)
+
+## 怎么安装
+
+1. 下载“桌宠主体”，双击下载的 `.exe` 文件，按提示安装。
+2. 如需语音生成，再下载“语音生成包”并运行；安装器会自动查找主体目录。两个包单独下载，无需解压或合并。
+3. 已有用户选择原安装目录覆盖安装，保留个人数据。1.4.5 用户需手动安装一次 1.5.0，之后可在小屋检查和操作更新。
+4. 联网检测到更新会先询问立刻／稍后下载，校验后点击一键安装。主体与语音组件独立更新，未装语音包的用户仅收到主体更新询问。
 
 ## 作者手动发布
 
