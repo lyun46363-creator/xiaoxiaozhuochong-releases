@@ -8,3 +8,6 @@
 !/versions/
 /versions/*
 !/versions/*.json
+
+# Public update feed; installers remain Release assets only.
+!/updates.json

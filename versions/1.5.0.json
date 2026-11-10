@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "components": {
+    "software": {
+      "version": "1.5.0",
+      "minSoftware": "1.5.0",
+      "size": 908498069,
+      "sha256": "13afeaea0374d605c29b39096df062f25a66c78e9ea46c6bca9980f1f6479949",
+      "url": "https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.5.0/xiaoxiaozhuochong-software-1.5.0.exe",
+      "notes": "主体内置离线聊天；语音生成包改为可选。新增主体与语音独立更新、立刻／稍后下载及校验后点击安装。"
+    },
+    "voice": {
+      "version": "1.5.0",
+      "minSoftware": "1.5.0",
+      "size": 1467550640,
+      "sha256": "474654364e21fe0c3ce7b2cbee6d16942e149a8cf55262266d56e07f1e993dac",
+      "url": "https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.5.0/xiaoxiaozhuochong-voice-1.5.0.exe",
+      "notes": "可选语音生成与音频编解码模型，含本地推理引擎；不重复包含聊天模型。"
+    }
+  }
+}
