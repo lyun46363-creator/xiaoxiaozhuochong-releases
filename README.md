@@ -1,34 +1,37 @@
 # 小小桌宠 Windows 安装包
 
-版本 **1.5.1**。首次使用先下载并安装桌宠主体；语音生成包按需选装。
+最新正式版 **1.5.2**。首次使用先安装主体，语音生成包可选。
 
-## 点击下载
+## 下载
 
-### [⬇ 下载桌宠主体（必装，约 866 MiB）](https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.5.1/xiaoxiaozhuochong-software-1.5.1.exe)
+- [下载桌宠主体（866.48 MiB，必装）](https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.5.2/xiaoxiaozhuochong-software-1.5.2.exe)
+- [下载语音生成包（约 1.37 GiB，可选）](https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.5.2/xiaoxiaozhuochong-voice-1.5.2.exe)
+- [查看 1.5.2 更新说明与全部附件](https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/tag/v1.5.2)
+- [查看历史版本](https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases)
 
-包含桌宠、离线聊天模型、提醒、系统语音和中文语音识别。下载后双击安装。
+这两个 EXE 直接安装，无需解压或合并。官网和夸克等渠道尚未同步时，请以本页 GitHub 1.5.2 附件为准。
 
-> **已有用户升级：无需卸载旧版。** 退出桌宠后，直接双击新版主体安装包，按提示完成安装即可。识别到旧版后会自动沿用原安装目录，可能不显示目录选择页；升级会保留个人数据和已有语音模型，无需重复安装语音包。
+## 怎么安装与升级
 
-### [⬇ 下载语音生成包（可选，约 1.37 GiB）](https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.5.1/xiaoxiaozhuochong-voice-1.5.1.exe)
+1. 主体内置离线聊天、桌宠与提醒、系统语音和中文识别。不安装可选语音包也可使用。
+2. 已有用户**无需先卸载**：退出桌宠后，双击新版主体包覆盖安装。识别旧版后自动沿用原目录，可能跳过目录选择页；个人数据与已有语音模型保留。如出现目录选择页，请核对原安装目录。
+3. 只有本版配套语音包已经下载且与主体包放在同一文件夹时才勾选语音组件。缺包或校验失败会停止安装，不自动联网下载。也可先只装主体，以后单独运行语音包并安装到同一桌宠目录。
+4. 1.5.2 保留版本检查与提醒，点击下载入口后在浏览器手动下载和安装。主体、语音独立检查；已装语音模型可继续保留。更早版本客户端可能需要手动覆盖安装一次以获得新界面与官网配置。
 
-想体验桌宠生成新的专属音色对话，再安装这个包。不安装也能使用离线聊天和系统语音。
+更新内容见 [CHANGELOG.md](CHANGELOG.md)。联系我们：[官网反馈](https://xiaoxiaozhuochong.pages.dev/#feedback)。
 
-这两个入口直接指向安装文件，无需再进入发布页面查找。下载入口在对应版本安装包上传完成后生效。[查看所有发布版本](https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases)
+## 文件校验
 
-## 怎么安装
+| 文件 | 字节 | SHA256 |
+| --- | ---: | --- |
+| `xiaoxiaozhuochong-voice-1.5.2.exe` | 1467550663 | `cde920fdef9d2ad735dd44858b3d93d43570b51730d9c671c847ccc4ee1f3bce` |
+| `xiaoxiaozhuochong-software-1.5.2.exe` | 908572582 | `41f140eb91a77ba1b3baba5f99b3d33ec0056ce82a843db6579a795ffe820304` |
 
-1. 下载“桌宠主体”，双击下载的 `.exe` 文件。安装组件页保留“主体＋离线聊天”，按需勾选“语音生成包”。
-2. 两个安装包放在同一文件夹时，主体安装器会先校验并使用配套语音包；缺少语音包时会询问是否联网下载。也可只安装主体，以后单独运行语音包。无需解压或合并。
-3. 已有用户无需先卸载，直接运行新版主体安装包即可；识别到旧版后自动沿用原目录，保留个人数据和已有语音模型。如果出现目录选择页，请核对为原安装目录。1.4.5 用户需手动安装一次 1.5.1，之后可在小屋检查和操作更新。
-4. 联网检测到更新会先询问立刻／稍后下载，校验后点击一键安装。主体与语音组件独立更新，未装语音包的用户仅收到主体更新询问。
+## 公开文件说明
 
-## 作者手动发布
+仓库只保存发布说明、版本校验清单和历史合并工具；安装器仅作为 Releases 附件，不进入 Git 历史。
 
-先发布 `v1.5.1` Release 并上传两个英文名附件，确认可下载后，再提交根目录 `updates.json`。清单必须位于 `main` 分支根目录，只作为 Release 附件上传无效。安装器不加入 Git 历史。
-
-未来只更新一个组件时，保留另一组件原有的版本、URL、大小和 SHA256。附件校验信息见 `updates.json` 和 `versions/1.5.1.json`。上传与发布由作者手动完成，本地生成文件不代表已公开发布。
-
-历史 1.4.4 分卷及合并工具保留，详情以对应 Release 和 `versions/1.4.4.json` 为准。
-
-安装器仍含可查看的 app_code 和 source.zip；源码仓库私有不表示安装器已经具备源码保护。第三方许可证随包提供。不应将源码仓库历史、个人数据或真实密钥上传到本仓库。
+- 根 `updates.json` 为旧客户端兼容的 schema 1，必须与已公开附件的版本、URL、字节数及 SHA256 一致；`versions/1.5.2.json` 为本版记录。
+- 官网使用 schema 2，两种格式不要直接互相覆盖。官网更新源部署与网盘文件同步另行进行。
+- 历史 1.4.4 的两个分卷、校验清单和 `merge-installer.ps1` 仍配套使用；**1.5.2 不使用这些分卷或合并工具**。
+- 安装器含可查看的 `app_code` 与 `source.zip`，源码仓库私有不代表安装器具备源码防逆向。第三方许可证随包提供。不得把私有源码仓库历史、个人数据或密钥上传到此公开仓库。

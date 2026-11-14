@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "components": {
+    "voice": {
+      "version": "1.5.2",
+      "minSoftware": "1.5.0",
+      "size": 1467550663,
+      "sha256": "cde920fdef9d2ad735dd44858b3d93d43570b51730d9c671c847ccc4ee1f3bce",
+      "notes": "可选语音生成与音频编解码模型，含本地推理引擎；不重复包含聊天模型。",
+      "url": "https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.5.2/xiaoxiaozhuochong-voice-1.5.2.exe"
+    },
+    "software": {
+      "version": "1.5.2",
+      "minSoftware": "1.5.0",
+      "size": 908572582,
+      "sha256": "41f140eb91a77ba1b3baba5f99b3d33ec0056ce82a843db6579a795ffe820304",
+      "notes": "1.5.2：独立更新与下载页、官网入口、使用教程与首次引导、系统语音选择持久记忆、无操作时继续计时说明；检查更新后打开网页手动下载，升级保留个人数据和已有语音模型。",
+      "url": "https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.5.2/xiaoxiaozhuochong-software-1.5.2.exe"
+    }
+  }
+}
