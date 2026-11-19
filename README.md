@@ -15,6 +15,6 @@
 | 文件 | 字节 | SHA256 |
 | --- | ---: | --- |
 | `voice` | 1467550664 | `e8a2e7af1c3fad1463a9d19a6cd2d153337ce515330c2882dee4357ed037a143` |
-| `software` | 920049137 | `b990f959b82c82697f662faccff2da41dbc465df9518f2605b743dd700f8e84d` |
+| `software` | 920068956 | `5ceff12a4074d2762a0fc5d7a278ca9a156902820be13de5bf5088bd76201546` |
 
 历史版本和安装附件见 [Releases](https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases)。安装器仅作Release附件，不加入Git历史；本仓库只保存公开发布资料。
