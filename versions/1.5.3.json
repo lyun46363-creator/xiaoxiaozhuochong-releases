@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "components": {
+    "voice": {
+      "version": "1.5.3",
+      "minSoftware": "1.5.0",
+      "size": 1467550664,
+      "sha256": "e8a2e7af1c3fad1463a9d19a6cd2d153337ce515330c2882dee4357ed037a143",
+      "notes": "可选语音生成与音频编解码模型，含本地推理引擎；不重复包含聊天模型。",
+      "url": "https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.5.3/xiaoxiaozhuochong-voice-1.5.3.exe"
+    },
+    "software": {
+      "version": "1.5.3",
+      "minSoftware": "1.5.0",
+      "size": 920049137,
+      "sha256": "b990f959b82c82697f662faccff2da41dbc465df9518f2605b743dd700f8e84d",
+      "notes": "桌宠助手支持追问和确认操作；新增转圈比心；云朵对话框自适应跟随。",
+      "url": "https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.5.3/xiaoxiaozhuochong-software-1.5.3.exe"
+    }
+  }
+}

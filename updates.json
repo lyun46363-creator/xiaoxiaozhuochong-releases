@@ -2,20 +2,20 @@
   "schema": 1,
   "components": {
     "voice": {
-      "version": "1.5.2",
+      "version": "1.5.3",
       "minSoftware": "1.5.0",
-      "size": 1467550663,
-      "sha256": "cde920fdef9d2ad735dd44858b3d93d43570b51730d9c671c847ccc4ee1f3bce",
+      "size": 1467550664,
+      "sha256": "e8a2e7af1c3fad1463a9d19a6cd2d153337ce515330c2882dee4357ed037a143",
       "notes": "可选语音生成与音频编解码模型，含本地推理引擎；不重复包含聊天模型。",
-      "url": "https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.5.2/xiaoxiaozhuochong-voice-1.5.2.exe"
+      "url": "https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.5.3/xiaoxiaozhuochong-voice-1.5.3.exe"
     },
     "software": {
-      "version": "1.5.2",
+      "version": "1.5.3",
       "minSoftware": "1.5.0",
-      "size": 908572582,
-      "sha256": "41f140eb91a77ba1b3baba5f99b3d33ec0056ce82a843db6579a795ffe820304",
-      "notes": "1.5.2：独立更新与下载页、官网入口、使用教程与首次引导、系统语音选择持久记忆、无操作时继续计时说明；检查更新后打开网页手动下载，升级保留个人数据和已有语音模型。",
-      "url": "https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.5.2/xiaoxiaozhuochong-software-1.5.2.exe"
+      "size": 920049137,
+      "sha256": "b990f959b82c82697f662faccff2da41dbc465df9518f2605b743dd700f8e84d",
+      "notes": "桌宠助手支持追问和确认操作；新增转圈比心；云朵对话框自适应跟随。",
+      "url": "https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.5.3/xiaoxiaozhuochong-software-1.5.3.exe"
     }
   }
 }
