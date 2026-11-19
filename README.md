@@ -6,15 +6,15 @@
 - 新增转圈比心动画。
 - 云朵双耳对话框，自适应跟随桌宠。
 
-退出桌宠后安装主体，无需卸载；语音包按需选装。
+退出桌宠后安装主体，无需卸载。语音沿用1.5.2，已安装无需重装。
 
-- [下载语音包（可选）](https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.5.3/xiaoxiaozhuochong-voice-1.5.3.exe)
 - [下载桌宠主体](https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.5.3/xiaoxiaozhuochong-software-1.5.3.exe)
+- [下载语音包（可选）](https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases/download/v1.5.2/xiaoxiaozhuochong-voice-1.5.2.exe)
 - [官网与安装指南](https://xiaoxiaozhuochong.pages.dev/#download)
 
-| 文件 | 字节 | SHA256 |
-| --- | ---: | --- |
-| `voice` | 1467550664 | `e8a2e7af1c3fad1463a9d19a6cd2d153337ce515330c2882dee4357ed037a143` |
-| `software` | 920068956 | `5ceff12a4074d2762a0fc5d7a278ca9a156902820be13de5bf5088bd76201546` |
+| 组件 | 版本 | 字节 | SHA256 |
+| --- | --- | ---: | --- |
+| `software` | 1.5.3 | 920075757 | `554ef0055f03d6e44f3460b39ef7893285b0385270bfc9fe11366d9b75a44ade` |
+| `voice` | 1.5.2 | 1467550663 | `cde920fdef9d2ad735dd44858b3d93d43570b51730d9c671c847ccc4ee1f3bce` |
 
 历史版本和安装附件见 [Releases](https://github.com/lyun46363-creator/xiaoxiaozhuochong-releases/releases)。安装器仅作Release附件，不加入Git历史；本仓库只保存公开发布资料。
